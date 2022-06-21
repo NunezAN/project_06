@@ -8,22 +8,32 @@
 }
 .row{
     width: 100%;
-    max-width: 450px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.box_wrapper{
+.leftboxes{
     width: 45%;
+}
+.box_wrapper1{
     display: flex;
     flex-direction: column;
+}
+.box_wrapper2{
+    display: flex;
+    justify-content: space-between;
 }
 .box{
     border: 4px solid lightgray;
     margin-bottom: 24px;
 }
+.longbox{
+    height: 50px;
+}
 .smallbox{
     height: 50px;
+    width: 30%;
 }
 .bigbox{
     border: 4px solid lightgray;
